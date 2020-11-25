@@ -64,7 +64,7 @@ hi VertSplit           ctermfg=197  ctermbg=233  cterm=NONE       guifg=#ff005f 
 hi SignColumn          ctermfg=233  ctermbg=233  cterm=NONE       guifg=#121212  guibg=#121212  gui=NONE
 
 hi IncSearch           ctermfg=51   ctermbg=NONE cterm=bold       guifg=#00ffff  guibg=NONE     gui=bold
-hi Search              ctermfg=237  ctermbg=229  cterm=bold       guifg=#3a3a3a  guibg=#ffffaf  gui=bold
+hi Search              ctermfg=0    ctermbg=197  cterm=bold       guifg=#000000  guibg=#ff005f  gui=bold
 
 hi TODO                ctermfg=190  ctermbg=NONE cterm=NONE       guifg=#d7ff00  guibg=NONE     gui=NONE
 hi Error               ctermfg=9    ctermbg=NONE cterm=underline  guifg=#ff0000  guibg=NONE     gui=underline
@@ -76,13 +76,15 @@ hi WildMenu            ctermfg=197  ctermbg=NONE cterm=NONE       guifg=#ff005f 
 hi Underlined          ctermfg=197  ctermbg=NONE cterm=underline  guifg=#ff005f  guibg=NONE     gui=underline
 hi Directory           ctermfg=197  ctermbg=NONE cterm=bold       guifg=#ff005f  guibg=NONE     gui=bold
 
-hi Pmenu               ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#6c6c6c  gui=bold
-hi PmenuSbar           ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#6c6c6c  gui=bold
-hi PmenuThumb          ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#6c6c6c  gui=bold
-hi PmenuSel            ctermfg=164  ctermbg=242  cterm=bold       guifg=#d700d7  guibg=#6c6c6c  gui=bold
+hi Pmenu               ctermfg=233  ctermbg=242  cterm=bold       guifg=#cccccc  guibg=#252525  gui=bold
+hi PmenuSbar           ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#252525  gui=bold
+hi PmenuThumb          ctermfg=233  ctermbg=242  cterm=bold       guifg=#121212  guibg=#252525  gui=bold
+hi PmenuSel            ctermfg=164  ctermbg=242  cterm=bold       guifg=#ffffff  guibg=#252525  gui=bold
 
 hi Folded              ctermfg=258  ctermbg=239  cterm=bold       guifg=#eeeeee  guibg=#4e4e4e  gui=bold
 hi FoldColumn          ctermfg=258  ctermbg=239  cterm=bold       guifg=#eeeeee  guibg=#4e4e4e  gui=bold
+
+hi EndOfBuffer ctermbg=0 ctermfg=0 guibg=Black guifg=Black
 
 hi Statusline          ctermfg=231  ctermbg=197  cterm=bold       guifg=#eeeeee  guibg=#ff005f  gui=bold
 hi StatuslineNC        ctermfg=231  ctermbg=204  cterm=bold       guifg=#eeeeee  guibg=#ff5f87  gui=bold
